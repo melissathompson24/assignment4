@@ -1,0 +1,31 @@
+/*CSS workaround so older browsers can understand the HTML5 semantic elements.*/
+article, aside, figure, footer, header, nav, section, form {
+	display: block;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	width: 100%;  /*for Firefox*/
+	background-color: #fff;
+	font-family: myriad pro, linotype univers, sans-serif;
+	color: #888432;
+}
+
+label, input {
+	margin: 1em 0 1em 2em;
+	display: block;
+}
+
+span {
+	margin: 1em 0 1em 2em;
+	color: red;
+}
+
+input.inValid {
+	border: 1px solid red;
+}
+
+input.Valid {
+	border: 1px solid #66FF00;
+}
